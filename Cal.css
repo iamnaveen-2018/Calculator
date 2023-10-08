@@ -1,0 +1,27 @@
+
+body{
+    color: white;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    background-color: black;
+}
+
+.machine{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px;
+    border: 2px solid white;
+    padding: 20px;
+}
+.machine > div > button{
+    padding: 20px;
+    border-radius:4px;
+    font-size: larger;
+}
+.outer,input{
+    border: 2px solid white;
+    padding: 15px;
+}

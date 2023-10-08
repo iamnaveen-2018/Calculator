@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Cal.css">
+</head>
+<body>
+    <div>
+        <p><h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> Simple Calculator</h1></p>
+        <div class="outer"><input type="text" id="res" style="width: 225px;border-radius: 4px;"></div>
+        <div class="machine">
+            <div><button onclick="resultappend('7')">7</button></div>
+            <div><button onclick="resultappend('8')">8</button></div>
+            <div><button onclick="resultappend('9')">9</button></div>
+            <div><button onclick="resultappend('6')">6</button></div>
+            <div><button onclick="resultappend('5')">5</button></div>
+            <div><button onclick="resultappend('4')">4</button></div>
+            <div><button onclick="resultappend('3')">3</button></div>
+            <div><button onclick="resultappend('2')">2</button></div>
+            <div><button onclick="resultappend('1')">1</button></div>
+            <div><button onclick="resultappend('0')">0</button></div>
+            <div><button onclick="resultClear('C')">C</button></div>
+            <div><button onclick="resultappend('+')">+</button></div>
+            <div><button onclick="resultappend('-')">-</button></div>
+            <div><button onclick="resultappend('*')">*</button></div>
+            <div><button onclick="resultappend('/')">/</button></div>
+            <div><button onclick="resultValid()">=</button></div>
+        </div>
+    </div>
+    <script src="Cal.js"></script>
+</body>
+</html>
